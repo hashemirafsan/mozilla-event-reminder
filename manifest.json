@@ -8,16 +8,16 @@
   "page_action": {
   "browser_style": true,
   "default_icon": {
-    "19": "mozilla.png",
-    "38": "mozilla.png"
+    "19": "icons/mozilla.png",
+    "38": "icons/mozilla.png"
     },
   "default_title": "Whereami?",
   "default_popup": "index.html"
 },
   "icons": {
-    "32":"mozilla.png",
-    "48": "mozilla_firefox.png",
-    "96": "mozilla_firefox.png"
+    "32":"icons/mozilla.png",
+    "48": "icons/mozilla_firefox.png",
+    "96": "icons/mozilla_firefox.png"
   },
   "author": "Hashemi Rafsan",
   "applications": {
@@ -40,7 +40,7 @@
   },
   "browser_action": {
     "default_icon": {
-      "16": "mozilla.png"
+      "16": "icons/mozilla.png"
     }
   },
   "permissions": [
