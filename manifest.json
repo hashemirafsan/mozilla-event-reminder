@@ -5,15 +5,6 @@
   "version": "1.0",
 
   "description": "Adds a solid red border to all webpages matching mozilla.org.",
-  "page_action": {
-  "browser_style": true,
-  "default_icon": {
-    "19": "icons/mozilla.png",
-    "38": "icons/mozilla.png"
-    },
-  "default_title": "Whereami?",
-  "default_popup": "index.html"
-},
   "icons": {
     "32":"icons/mozilla.png",
     "48": "icons/mozilla_firefox.png",
@@ -22,10 +13,9 @@
   "author": "Hashemi Rafsan",
   "applications": {
   "gecko": {
-    "id": "addon@example.com",
+    "id": "rafsan@freebuck.xyz",
     "strict_min_version": "42.0",
-    "strict_max_version": "50.*",
-    "update_url": "https://example.com/updates.json"
+    "strict_max_version": "50.*"
     }
   },
   "homepage_url": "https://github.com/hashemirafsan/mozilla-event-reminder",
