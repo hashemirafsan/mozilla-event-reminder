@@ -63,12 +63,20 @@ $(document).ready(function(){
                       $("#titleName").html("Mozilla Event's "+capitalize(countryName));
                     $(".total_event").html("#Total event found : "+ count);
                   }else{
+                    $("title").html("Mozilla Event");
+                    $("#titleName").html("Mozilla Event's");
                     $(".error").append("No data have found");
                   }
               });
             } else {
+              $("title").html("Mozilla Event");
+              $("#titleName").html("Mozilla Event's");
               $(".error").append("Add-ons under in construction"+"<br>"+"Need your contribution");
             }
+          }else{
+            $("title").html("Mozilla Event");
+            $("#titleName").html("Mozilla Event's");
+            $(".error").append("Add-ons under in construction"+"<br>"+"Your country is not define");
           }
         }
     });
