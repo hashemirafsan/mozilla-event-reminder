@@ -2,13 +2,13 @@
 
   "manifest_version": 2,
   "name": "LU-reminder",
-  "version": "1.0",
+  "version": "1.0.2",
 
-  "description": "Adds a solid red border to all webpages matching mozilla.org.",
+  "description": "Addons For Leading university event list",
   "icons": {
-    "32":"icons/mozilla.png",
-    "48": "icons/mozilla_firefox.png",
-    "96": "icons/mozilla_firefox.png"
+    "32":"icons/moz.png",
+    "48": "icons/moz.png",
+    "96": "icons/moz.png"
   },
   "author": "Hashemi Rafsan",
   "applications": {
@@ -30,10 +30,12 @@
   },
   "browser_action": {
     "default_icon": {
-      "16": "icons/mozilla.png"
+      "16": "icons/moz.png"
     }
   },
   "permissions": [
+    "alarms",
+    "*://*/*",
     "webRequest",
     "tabs"
   ]
